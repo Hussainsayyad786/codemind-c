@@ -1,9 +1,9 @@
 #include<stdio.h>
+#define PI 3.14
 int main()
 {
-    int r;
-    float a;
-    scanf("%d",&r);
-    a=3.14*r*r;
-    printf("%0.2f",a);
+    float a,r;
+    scanf("%f",&r);
+    a=PI*r*r;
+    printf("%.2f",a);
 }
